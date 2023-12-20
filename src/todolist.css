@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.box{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.title{
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+input{
+    border: 1px grey solid;
+    border-radius: 8px;
+    padding: 6px;
+    width: 400px;
+    color: red;
+}
+
+.mode{
+    padding: 6px;
+    border-radius: 8px;
+    border: none;
+    margin: 20px;
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.btn-add{
+    border-radius: 8px;
+    padding: 8px;
+    width: 150px;
+    border: 1px green solid;
+    color: green;
+    cursor: pointer;
+}
+
+hr{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.todo-item{
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 50%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.todo-edit{
+    padding: 8px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.todo-delete{
+    padding: 8px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 8px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.no-item-text{
+    color: red;
+}
